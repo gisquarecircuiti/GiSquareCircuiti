@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101917">
+  <meta name="description" content="GiSquare Circuiti: simula circuiti elettronici, schede compatibili Uno e Nano, impianti elettrici e PLC con linguaggio Ladder. Laboratorio didattico per scuole, docenti e studenti.">
+  <title>GiSquare Circuiti — Il laboratorio prende vita</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+  <header class="site-header">
+    <a class="brand" href="#inizio" aria-label="GiSquare Circuiti, pagina iniziale">
+      <img src="assets/marchio-gisquare.png" alt="" width="38" height="38">
+      <span class="brand-name">GiSquare <span>Circuiti</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Apri il menu"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Navigazione principale">
+      <a href="#laboratori">I laboratori</a>
+      <a href="#funzioni">Le funzioni</a>
+      <a href="#didattica">Per la didattica</a>
+      <a href="#documentazione">Documentazione</a>
+      <a class="nav-download" href="#scarica">Scarica la beta <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero section-wrap" id="inizio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> BETA PUBBLICA <span class="eyebrow-rule"></span> PER IMPARARE, INSIEME</div>
+        <h1>Il laboratorio<br>prende <em>vita.</em></h1>
+        <p class="hero-intro">Disegna circuiti analogici e digitali, programma schede compatibili Uno e Nano oppure costruisci impianti e PLC in Ladder. Simula, misura e stampa i tuoi schemi in un laboratorio didattico in italiano.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#scarica">Scarica la beta <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#laboratori">Esplora i laboratori <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-meta"><span>PER DOCENTI E STUDENTI</span><span class="meta-dot">·</span><span>WINDOWS</span><span class="meta-dot">·</span><span>USO DIDATTICO</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Schermata di GiSquare Circuiti con un filtro RC pronto per la simulazione">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="circuit-tag tag-spice"><span class="tag-signal"></span> ngspice</div>
+        <div class="circuit-tag tag-live"><span class="tag-signal"></span> PRONTO A SIMULARE</div>
+        <figure class="app-window">
+          <div class="app-window-bar"><div class="window-lights"><i></i><i></i><i></i></div><span>GiSquare Circuiti <b>·</b> Elettronica</span><span class="window-status"><i></i> pronto</span></div>
+          <img src="assets/gisquare-schermata-principale.jpg" alt="Interfaccia di GiSquare Circuiti: un filtro RC disegnato nell’area di lavoro, con il catalogo dei componenti a sinistra" width="1500" height="900">
+          <figcaption><span>01 — CIRCUITO RC</span><span>TRASCINA · COLLEGA · SIMULA</span></figcaption>
+        </figure>
+        <div class="hero-note"><span class="note-icon">↗</span><span>Un circuito alla volta.<br><strong>Tante cose da scoprire.</strong></span></div>
+      </div>
+      <div class="hero-bottom"><span>UN SOLO AMBIENTE, TRE MODI DI ESPLORARE</span><span class="hero-bottom-line"></span><span>SCORRI PER SCOPRIRE <b>↓</b></span></div>
+    </section>
+
+    <section class="intro-band" aria-label="Panoramica del software">
+      <div class="intro-band-inner"><p>Un’idea prende forma.<br><strong>La simulazione fa il resto.</strong></p><div class="intro-stat"><b>03</b><span>ambienti<br>di lavoro</span></div><div class="intro-stat"><b>01</b><span>programma<br>in italiano</span></div><div class="intro-stat"><b>∞</b><span>esperimenti<br>da provare</span></div></div>
+    </section>
+
+    <section class="labs section-wrap" id="laboratori">
+      <div class="section-heading"><div><div class="eyebrow eyebrow-dark">TRE AMBIENTI, UNA SOLA CURIOSITÀ</div><h2>Ogni idea ha<br>il suo <em>laboratorio.</em></h2></div><p>Dai primi collegamenti ai sistemi più articolati: scegli l’ambiente e sperimenta in prima persona.</p></div>
+      <div class="lab-layout">
+        <div class="lab-list" role="tablist" aria-label="Scegli un ambiente di simulazione">
+          <button class="lab-tab is-active" id="tab-electronics" role="tab" aria-selected="true" aria-controls="lab-panel" data-lab="electronics"><span class="lab-tab-no">01</span><span class="lab-tab-copy"><b>Elettronica</b><small>Analogica, digitale, SPICE</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button class="lab-tab" id="tab-wiring" role="tab" aria-selected="false" aria-controls="lab-panel" data-lab="wiring" tabindex="-1"><span class="lab-tab-no">02</span><span class="lab-tab-copy"><b>Automazione e PLC</b><small>Quadri, Ladder, sensori</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <button class="lab-tab" id="tab-arduino" role="tab" aria-selected="false" aria-controls="lab-panel" data-lab="arduino" tabindex="-1"><span class="lab-tab-no">03</span><span class="lab-tab-copy"><b>Schede compatibili con Arduino</b><small>Codice e co-simulazione</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+          <div class="lab-list-foot"><span class="mini-wave" aria-hidden="true">⌁</span><span>Passa dagli schemi elettronici ai microcontrollori e all’automazione.</span></div>
+        </div>
+        <div class="lab-panel" id="lab-panel" role="tabpanel" aria-labelledby="tab-electronics" tabindex="0">
+          <div class="lab-panel-copy"><span class="panel-kicker" id="panel-kicker">AMBIENTE 01 / ELETTRONICA</span><h3 id="panel-title">Vedi quello<br>che non si vede.</h3><p id="panel-description">Analizza tensioni e correnti, osserva i segnali nel tempo o esplora la risposta in frequenza. Con ngspice, la simulazione elettronica diventa un’esperienza da interrogare.</p><div class="feature-pills" id="panel-pills"><span>Transitorio</span><span>Oscilloscopio</span><span>Bode</span></div></div>
+          <figure class="lab-image"><img id="lab-image" src="assets/gisquare-schermata-2.jpg" alt="Analisi di un circuito elettronico con oscilloscopio e filtro RC" width="1500" height="900" loading="lazy"><figcaption id="lab-caption">UN FILTRO RC, OSSERVATO NEL TEMPO <span>↗</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning" id="didattica">
+      <div class="section-wrap learning-inner">
+        <div class="learning-copy"><div class="eyebrow">UN POSTO DOVE PROVARE, SBAGLIARE, CAPIRE</div><h2>La teoria<br>fa spazio alla <em>pratica.</em></h2><p>GiSquare Circuiti porta l’esperimento sullo schermo: gli studenti costruiscono il circuito, cambiano i valori e osservano le conseguenze, senza dover iniziare da un banco attrezzato.</p><div class="learning-list"><div><span>01</span><p><b>Si parte da un esempio.</b><br>Apri un circuito già pronto, poi esploralo.</p></div><div><span>02</span><p><b>Si modifica una cosa per volta.</b><br>Valori e collegamenti sono sotto controllo.</p></div><div><span>03</span><p><b>Si ragiona su ciò che si osserva.</b><br>Grafici, misure e stati rendono visibile il risultato.</p></div></div></div>
+        <div class="learning-visual"><div class="learning-image-frame"><img src="assets/gisquare-schermata-4.jpg" alt="Schema di logica cablata con motore, componenti di protezione e pannello di stato della simulazione" width="1500" height="900" loading="lazy"><span class="image-index">ESPERIMENTO N. 04</span></div><div class="learning-quote"><span>“</span><p>Il motore non parte.<br><strong>Da dove cominciamo?</strong></p><small>UN ESERCIZIO DI RICERCA GUASTI</small></div><div class="learning-stamp">IMPARARE<br>FACENDO <span>✳</span></div></div>
+      </div>
+    </section>
+
+    <section class="examples section-wrap">
+      <div class="examples-top"><div><div class="eyebrow eyebrow-dark">42 ESPERIMENTI GIÀ PRONTI</div><h2>Apri. Modifica.<br><em>Fai tuo.</em></h2></div><p>Oltre quaranta esempi guidano dalla prima misura ai circuiti analogici, dai programmi per microcontrollori ai PLC e alla ricerca guasti.</p></div>
+      <div class="example-grid"><article class="example-card example-card-sky"><span class="example-index">ELETTRONICA <b>01</b></span><div class="example-illustration rc-illustration" aria-hidden="true"><span class="wire w1"></span><span class="resistor">R</span><span class="wire w2"></span><span class="capacitor">Ⅱ</span><span class="wire w3"></span><span class="ground">⏚</span><span class="pulse pulse-a"></span><span class="pulse pulse-b"></span></div><h3>Segui il segnale.</h3><p>Misura circuiti in continua e nel tempo, esplora i diagrammi di Bode e importa modelli SPICE reali.</p><span class="example-arrow">→</span></article><article class="example-card example-card-blue"><span class="example-index">MICROCONTROLLORI <b>02</b></span><div class="example-illustration board-illustration" aria-hidden="true"><div class="board-chip">UNO</div><div class="board-pins"></div><div class="board-led"></div><span class="board-wire"></span></div><h3>Scrivi. Compila. Avvia.</h3><p>Programma schede compatibili Uno e Nano con display, sensori, servomotori e monitor seriale.</p><span class="example-arrow">→</span></article><article class="example-card example-card-peach"><span class="example-index">AUTOMAZIONE E PLC <b>03</b></span><div class="example-illustration motor-illustration" aria-hidden="true"><div class="motor-circle">M<span>3~</span></div><span class="motor-wire wire-a"></span><span class="motor-wire wire-b"></span><span class="motor-switch">◫</span><span class="motor-lamp">✳</span></div><h3>Dal quadro al Ladder.</h3><p>Simula motori e guasti, programma PLC e regola processi con ingressi analogici e sensori.</p><span class="example-arrow">→</span></article></div>
+    </section>
+
+    <section class="capabilities section-wrap" id="funzioni">
+      <div class="capabilities-heading"><div><div class="eyebrow eyebrow-dark">DAL DISEGNO ALLA RELAZIONE</div><h2>Un laboratorio<br><em>completo.</em></h2></div><p>Costruisci gli schemi, osserva il comportamento e porta il lavoro fuori dallo schermo.</p></div>
+      <div class="capability-grid">
+        <article class="capability-card"><span class="capability-number">01 / ANALISI</span><h3>Misura e interpreta</h3><p>Punto di lavoro, transitorio e risposta in frequenza. Usa multimetro, wattmetro, oscilloscopio a due canali e generatore di funzioni.</p></article>
+        <article class="capability-card"><span class="capability-number">02 / ELETTRONICA</span><h3>Modelli e componenti</h3><p>Esplora diodi, transistor, MOSFET, operazionali, logica digitale, timer 555, motori, relè e protezioni. Importa modelli SPICE dei componenti reali.</p></article>
+        <article class="capability-card"><span class="capability-number">03 / AUTOMAZIONE</span><h3>PLC e sensori</h3><p>Programma PLC a 24 V o 230 V nell’editor Ladder. Usa temporizzatori, contatori, fronti, confronti, blocchi SCALA e sette sensori analogici 0–10 V.</p></article>
+        <article class="capability-card"><span class="capability-number">04 / ELABORATI</span><h3>Salva, stampa, condividi</h3><p>Organizza lo schema con testi, etichette e colori dei fili. Salva in .gsq, compila il cartiglio e stampa o esporta in PDF su foglio A4 o A3.</p></article>
+      </div>
+      <p class="capabilities-note">42 esempi pronti e 8 esercitazioni guidate accompagnano il manuale completo.</p>
+    </section>
+
+    <section class="download-section" id="scarica">
+      <div class="download-grid"></div><div class="section-wrap download-inner"><div class="download-copy"><div class="eyebrow"><span class="live-dot"></span> RELEASE PUBBLICA · BETA 1.0.0-BETA.2</div><h2>La prossima scoperta<br>può <em>iniziare oggi.</em></h2><p>Scarica GiSquare Circuiti e prova i tre ambienti. La beta è gratuita per uso didattico e personale, ed è aperta a docenti, studenti, scuole e privati.</p><div class="download-actions"><a class="button button-light" href="https://github.com/gisquarecircuiti/GiSquareCircuiti/releases/download/v1.0.0-beta.2/GiSquare-Circuiti-Setup-1.0.0-beta.2.exe">Scarica per Windows <span aria-hidden="true">↓</span></a><a class="release-link" href="https://github.com/gisquarecircuiti/GiSquareCircuiti/releases/tag/v1.0.0-beta.2" target="_blank" rel="noreferrer">Vedi release e note <span aria-hidden="true">↗</span></a></div><div class="download-meta"><span><i class="meta-check">✓</i> Installazione per utente</span><span><i class="meta-check">✓</i> Non richiede privilegi amministratore</span><span><i class="meta-check">✓</i> ngspice incluso</span><span><i class="meta-check">✓</i> Nessun account richiesto</span></div><p class="terms-note">La beta è gratuita per uso didattico e personale; l’uso commerciale richiede un accordo scritto. Non ridistribuire il programma o l’installer: condividi il link al canale ufficiale. È una versione di prova; conserva copie dei tuoi circuiti.</p><p class="privacy-summary"><b>Privacy del programma:</b> non invia circuiti o dati personali all’autore. La versione installata controlla gli aggiornamenti tramite GitHub; puoi disattivare il controllo nelle Informazioni. <a href="legal/INFORMATIVA-PRIVACY.html">Leggi l’informativa</a>.</p></div><aside class="platform-card"><div class="platform-card-head"><span class="platform-icon">⌘</span><span class="platform-status">PACCHETTO IN QUESTA RELEASE</span></div><h3>Windows</h3><p>Installer per utente. Il motore ngspice è già incluso nel pacchetto.</p><a href="https://github.com/gisquarecircuiti/GiSquareCircuiti/releases/download/v1.0.0-beta.2/GiSquare-Circuiti-Setup-1.0.0-beta.2.exe" class="platform-file"><span class="file-icon">↓</span><span><b>GiSquare-Circuiti-Setup-1.0.0-beta.2</b><small>.exe · GitHub Releases</small></span><span class="file-arrow">↗</span></a><div class="platform-separator"></div><div class="platform-notice"><span>⌘</span><p><b>macOS</b><br>Il manuale descrive una build Mac, ma non è allegata a questa release. Consulta gli aggiornamenti su GitHub.</p></div><a class="platform-all" href="https://github.com/gisquarecircuiti/GiSquareCircuiti/releases" target="_blank" rel="noreferrer">Tutte le release <span>↗</span></a></aside></div>
+      <div class="section-wrap disclaimer"><span>NOTA DIDATTICA</span><p>Le simulazioni usano modelli a scopo formativo, non certificati. Non sostituiscono il progetto e le verifiche di un professionista su impianti reali.</p><a href="documenti/gi-square-manuale.pdf">Dettagli nel manuale <span>↗</span></a></div>
+    </section>
+
+    <section class="docs section-wrap" id="documentazione">
+      <div class="docs-heading"><div><div class="eyebrow eyebrow-dark">QUANDO VUOI APPROFONDIRE</div><h2>Le istruzioni<br>sono <em>qui.</em></h2></div><p>Dalla prima schermata alle analisi, trovi una guida rapida e un manuale completo per imparare a usare ogni ambiente.</p></div>
+      <div class="doc-list"><a class="doc-card" href="documenti/gi-square-guida-rapida.pdf" target="_blank"><span class="doc-number">01</span><span class="doc-type">8 PAGINE <i>·</i> PRIMI PASSI</span><span class="doc-title">Guida rapida</span><span class="doc-description">Dall’interfaccia alle simulazioni, dai microcontrollori ai PLC: le funzioni essenziali in sintesi.</span><span class="doc-action">Apri la guida <b>↗</b></span><span class="doc-mark">↗</span></a><a class="doc-card" href="documenti/gi-square-manuale.pdf" target="_blank"><span class="doc-number">02</span><span class="doc-type">55 PAGINE <i>·</i> MANUALE COMPLETO</span><span class="doc-title">Manuale d’uso</span><span class="doc-description">Elettronica, microcontrollori, logica cablata, PLC, sensori, stampa, esercitazioni e 42 esempi.</span><span class="doc-action">Apri il manuale <b>↗</b></span><span class="doc-mark">↗</span></a></div>
+      <div class="docs-footer"><span>DOCUMENTI DELLA VERSIONE BETA</span><span class="legal-links"><a href="legal/EULA-BETA.html">Licenza beta <b>↗</b></a><a href="legal/INFORMATIVA-PRIVACY.html">Privacy del programma <b>↗</b></a><a href="legal/PRIVACY-SITO.html">Privacy del sito <b>↗</b></a></span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="section-wrap footer-main"><a class="brand footer-brand" href="#inizio"><img src="assets/marchio-gisquare.png" alt="" width="34" height="34"><span class="brand-name">GiSquare <span>Circuiti</span></span></a><p>Un laboratorio digitale per dare forma alle idee.</p><div class="footer-links"><a href="mailto:gisquare.circuiti@gmail.com?subject=GiSquare%20Circuit%20Lab">Scrivi all’autore <span>↗</span></a><a class="footer-github" href="https://github.com/gisquarecircuiti/GiSquareCircuiti" target="_blank" rel="noreferrer">Progetto su GitHub <span>↗</span></a></div></div><div class="section-wrap footer-bottom"><span>© 2026 Andrea Aldini</span><span>Beta pubblica per la didattica</span><a href="#inizio">Torna all’inizio ↑</a></div><p class="trademark-note">Arduino® è un marchio di Arduino S.r.l. GiSquare Circuiti è un progetto indipendente, non affiliato né approvato da Arduino S.r.l.</p></footer>
+</body>
+</html>
