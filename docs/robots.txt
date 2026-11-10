@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gisquarecircuiti.github.io/GiSquareCircuiti/sitemap.xml
