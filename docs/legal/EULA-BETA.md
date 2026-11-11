@@ -1,12 +1,12 @@
 # Contratto di licenza d'uso – versione beta
-**GiSquare Circuiti – versione 1.1.0 beta 2 (programma gratuito per uso didattico e personale)**
-Versione del contratto: 2.1 – 10 novembre 2026
+**GiSquare Circuiti – versione 1.1.0 beta 3 (programma gratuito per uso didattico e personale)**
+Versione del contratto: 2.2 – 11 novembre 2026
 
 Leggi con attenzione queste condizioni. Installando o usando il programma, oppure premendo “Accetto” al primo avvio, accetti il presente contratto. Se non lo accetti, non usare il programma e cancellalo.
 
 ## 1. Le parti
 - **Licenziante**: Andrea Aldini, autore e titolare di tutti i diritti sul programma (contatto: gisquare.circuiti@gmail.com).
-- **Utente**: chiunque installa o usa il programma.
+- **Utente**: chiunque installa o usa il programma. Chi ha meno di 18 anni usa il programma con il consenso di un genitore o di chi ne fa le veci, oppure nell'ambito delle attività della propria scuola.
 
 ## 2. Cosa è concesso
 Il Licenziante concede all'Utente, **gratuitamente**, una licenza d'uso personale, non esclusiva, non trasferibile e revocabile, per:
@@ -45,16 +45,16 @@ L'uso gratuito concesso al punto 2 è per fini didattici e personali. Qualsiasi 
 Il programma (codice, interfaccia, simboli grafici, esempi, testi e documentazione) è opera dell'ingegno dell'autore, protetta dalla Legge 633/1941 sul diritto d'autore. Il nome “GiSquare Circuiti” e il logo appartengono al Licenziante. Questo contratto concede solo il diritto d'uso descritto ai punti 2 e 4: tutti gli altri diritti restano al Licenziante.
 
 ## 6. Componenti di terzi
-Il programma comprende componenti di terzi distribuiti con licenze libere, elencati con le loro licenze nel documento “Licenze di terzi” (visibile nel programma, pulsante *Info*, e nella cartella `legal` dell'installazione). Per quei componenti valgono le rispettive licenze, che prevalgono sul presente contratto. In particolare il motore di simulazione **ngspice** è un programma separato, incluso nel pacchetto per comodità e usato dal programma come programma esterno: resta soggetto alle proprie licenze e il suo codice sorgente è disponibile come indicato in “Licenze di terzi”. Il compilatore **arduino-cli** e le **librerie Arduino** non sono inclusi: l'Utente li scarica, su propria scelta, dai server di Arduino e li usa secondo le loro licenze.
+Il programma comprende componenti di terzi distribuiti con licenze libere, elencati con le loro licenze nel documento “Licenze di terzi” (visibile nel programma, pulsante *Info*, e nella cartella `legal` dell'installazione). Per quei componenti valgono le rispettive licenze, che prevalgono sul presente contratto. In particolare il motore di simulazione **ngspice** è un programma separato, incluso nel pacchetto per comodità e usato dal programma come programma esterno: resta soggetto alle proprie licenze e il suo codice sorgente è disponibile come indicato in “Licenze di terzi”. Il compilatore **arduino-cli** e le **librerie Arduino** non sono inclusi: l'Utente li scarica, su propria scelta, dai server di Arduino e li usa secondo le loro licenze. Arduino® è un marchio di Arduino S.r.l.: GiSquare Circuiti è un progetto indipendente, non affiliato né approvato da Arduino S.r.l.
 
 ## 7. Natura del programma beta
 L'Utente sa che si tratta di una **versione di prova non definitiva**: può contenere errori, funzionare in modo incompleto, cambiare o essere interrotta senza preavviso, e i file salvati potrebbero non essere compatibili con le versioni successive. Conviene conservare una copia dei propri lavori.
 
 ## 8. Aggiornamenti
-La versione installata può controllare la disponibilità di aggiornamenti e proporli all'Utente, come descritto nell'Informativa sulla privacy; l'Utente può disattivare questo controllo. Con un aggiornamento il presente contratto può essere modificato: in tal caso la nuova versione sarà mostrata al primo avvio della versione aggiornata e l'uso del programma vale come accettazione.
+Il programma può controllare la disponibilità di aggiornamenti e segnalarli all'Utente, come descritto nell'Informativa sulla privacy; l'Utente può disattivare questo controllo. Con un aggiornamento il presente contratto può essere modificato: in tal caso la nuova versione sarà mostrata al primo avvio della versione aggiornata e l'uso del programma vale come accettazione.
 
 ## 9. Avvertenze sull'uso dei risultati
-Il programma è uno strumento **didattico e di simulazione**. I risultati sono calcolati con modelli semplificati: **non sono certificati** e non sostituiscono il progetto, il calcolo e le verifiche di un professionista. Non vanno usati da soli per progettare, realizzare o verificare impianti e apparecchiature reali. I lavori sugli impianti elettrici vanno eseguiti da persone qualificate, nel rispetto delle norme vigenti (per esempio la Legge 37/2008 e le norme CEI).
+Il programma è uno strumento **didattico e di simulazione**. I risultati sono calcolati con modelli semplificati: **non sono certificati** e non sostituiscono il progetto, il calcolo e le verifiche di un professionista. Non vanno usati da soli per progettare, realizzare o verificare impianti e apparecchiature reali. I lavori sugli impianti elettrici vanno eseguiti da persone qualificate, nel rispetto delle norme vigenti (per esempio il D.M. 37/2008 e le norme CEI).
 
 ## 10. Assenza di garanzia
 Il programma è fornito gratuitamente **“così com'è”**, senza garanzie di alcun tipo, espresse o implicite, comprese quelle di funzionamento, assenza di errori o idoneità a uno scopo particolare, nei limiti consentiti dalla legge.
@@ -66,7 +66,7 @@ Nei limiti consentiti dalla legge, il Licenziante non risponde di danni diretti 
 L'Utente può segnalare errori e proporre miglioramenti all'indirizzo gisquare.circuiti@gmail.com. Inviando un suggerimento, consente al Licenziante di usarlo liberamente e gratuitamente per migliorare il programma, senza obbligo di compenso. I file di circuito inviati per le segnalazioni restano dell'Utente e sono usati solo per risolvere il problema.
 
 ## 13. Dati personali
-Il trattamento dei dati è descritto nell'**Informativa sulla privacy** presente nel programma. Il programma non raccoglie né invia all'autore i tuoi dati personali o i tuoi circuiti; la versione installata si collega a GitHub solo per controllare gli aggiornamenti, come spiegato nell'informativa.
+Il trattamento dei dati è descritto nell'**Informativa sulla privacy** presente nel programma. Il programma non raccoglie né invia all'autore i tuoi dati personali o i tuoi circuiti; il programma si collega a GitHub solo per controllare gli aggiornamenti (controllo che si può disattivare), come spiegato nell'informativa.
 
 ## 14. Risoluzione
 Se l'Utente non rispetta questo contratto, la licenza termina automaticamente e l'Utente deve smettere di usare il programma e cancellarlo.

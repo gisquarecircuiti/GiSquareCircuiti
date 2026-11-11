@@ -1,19 +1,19 @@
 # Informativa sulla privacy
-**GiSquare Circuiti – versione beta** · aggiornata all'8 novembre 2026
+**GiSquare Circuiti – versione beta** · aggiornata all'11 novembre 2026
 (informativa ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679, “GDPR”)
 
 ## In breve
 - Il programma **funziona sul tuo computer** e **non invia dati all'autore**: niente account, niente registrazione, niente statistiche d'uso, niente pubblicità, niente cookie.
 - I circuiti, le impostazioni e i modelli importati restano **solo sul tuo computer**.
 - Il programma si collega a Internet **solo se lo chiedi tu**: per scaricare il compilatore gratuito arduino-cli, il supporto per le schede e le librerie Arduino (dai server di Arduino). Il motore di simulazione ngspice è incluso e lavora senza Internet.
-- La versione **installata** controlla automaticamente all'avvio se è uscita una nuova versione, collegandosi al servizio GitHub (Microsoft). Vengono scambiate solo le informazioni tecniche necessarie a confrontare la versione e a scaricare l'aggiornamento: **nessun dato personale, nessun account**. Puoi **disattivare** questo controllo dalla finestra “Informazioni”. La versione portable non si aggiorna da sola.
+- All'avvio il programma controlla automaticamente se è uscita una nuova versione, collegandosi al servizio GitHub (Microsoft). Vengono scambiate solo le informazioni tecniche necessarie a confrontare la versione e, su Windows, a scaricare l'aggiornamento: **nessun dato personale, nessun account**. Puoi **disattivare** questo controllo dalla finestra “Informazioni”. Fa eccezione la versione portable per Windows, che non esegue alcun controllo.
 - L'autore tratta i tuoi dati solo se gli scrivi (per esempio per una segnalazione).
 
 ## 1. Titolare del trattamento
 Andrea Aldini – email: gisquare.circuiti@gmail.com
 
 ## 2. Dati sul tuo computer
-Il programma salva sul tuo computer, nella cartella dei dati dell'applicazione (su Windows di solito `%APPDATA%\GiSquare Circuit Lab`; su macOS in `~/Library/Application Support/GiSquare Circuit Lab`; su Linux e Chrome OS in `~/.config/GiSquare Circuit Lab`):
+Il programma salva sul tuo computer, nella cartella dei dati dell'applicazione (su Windows di solito `%APPDATA%\GiSquare Circuiti`; su macOS in `~/Library/Application Support/GiSquare Circuiti`; su Linux e Chrome OS in `~/.config/GiSquare Circuiti`):
 - le impostazioni (per esempio il percorso di ngspice e di arduino-cli e l'accettazione della licenza);
 - i modelli di componenti che importi;
 - il compilatore arduino-cli, se scegli di scaricarlo dal programma.
@@ -30,11 +30,11 @@ Solo quando lo scegli, il programma:
 
 Il programma chiede ad arduino-cli di **non** controllare in rete la disponibilità di nuove versioni.
 
-Inoltre, nella versione **installata**, il programma controlla la disponibilità di aggiornamenti:
+Inoltre il programma controlla la disponibilità di aggiornamenti (in tutte le versioni, tranne la portable per Windows):
 - all'avvio controlla in automatico se è disponibile una versione più recente, collegandosi a GitHub (`api.github.com` e `github.com`, gestiti da GitHub, Inc. / Microsoft);
-- se c'è un aggiornamento te lo segnala e lo scarica **solo dopo la tua conferma** (dai domini di GitHub, per esempio `objects.githubusercontent.com`); l'installazione parte quando lo decidi tu.
+- se c'è un aggiornamento te lo segnala. Su **Windows** (versione installata) lo scarica **solo dopo la tua conferma** (dai domini di GitHub, per esempio `objects.githubusercontent.com`) e l'installazione parte quando lo decidi tu. Su **Mac e Linux** non scarica nulla da solo: se lo chiedi, apre nel browser la pagina di download.
 
-Questo controllo si può **disattivare** dalla finestra “Informazioni” (casella “Controlla automaticamente all'avvio”). In questi collegamenti GitHub riceve i dati tecnici della connessione (per esempio l'indirizzo IP), come titolare autonomo secondo la propria informativa (github.com); l'autore di GiSquare Circuiti non riceve questi dati. La versione portable non esegue questo controllo e si aggiorna manualmente scaricando la nuova versione.
+Questo controllo si può **disattivare** dalla finestra “Informazioni” (casella “Controlla automaticamente all'avvio”). In questi collegamenti GitHub riceve i dati tecnici della connessione (per esempio l'indirizzo IP), come titolare autonomo secondo la propria informativa (github.com); l'autore di GiSquare Circuiti non riceve questi dati. La versione portable per Windows non esegue questo controllo e si aggiorna manualmente scaricando la nuova versione.
 
 In questi casi il tuo computer si collega ai server di Arduino, che ricevono i dati tecnici di ogni collegamento a Internet (per esempio l'indirizzo IP). Il titolare di quel trattamento è Arduino, secondo la propria informativa sulla privacy (arduino.cc). L'autore di GiSquare Circuiti non riceve questi dati.
 
