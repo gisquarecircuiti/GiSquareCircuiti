@@ -86,3 +86,22 @@ siteNav.querySelectorAll("a").forEach((link) => link.addEventListener("click", (
   menuToggle.setAttribute("aria-expanded", "false");
   menuToggle.setAttribute("aria-label", "Apri il menu");
 }));
+
+// Su telefono e tablet il programma non si installa: niente pulsanti di download (evita il rimando alla pagina di accesso dell’app GitHub)
+(() => {
+  const ua = navigator.userAgent || "";
+  const mobile = /iPhone|iPad|iPod|Android/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+  if (!mobile) return;
+  document.documentElement.classList.add("is-mobile");
+  const note = document.querySelector(".mobile-note");
+  if (note) note.hidden = false;
+  const btn = document.querySelector("#copy-site"), ok = document.querySelector("#copy-ok");
+  if (btn) btn.addEventListener("click", async () => {
+    const url = "https://gisquarecircuiti.github.io/GiSquareCircuiti/";
+    try { await navigator.clipboard.writeText(url); } catch (e) {
+      const t = document.createElement("textarea"); t.value = url; document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); } catch (e2) {} t.remove();
+    }
+    if (ok) ok.hidden = false;
+  });
+})();
