@@ -3,8 +3,8 @@
   Istruzioni di installazione e primo avvio
 ========================================================
 
-Grazie per provare GiSquare Circuiti.
-Questa è una versione di prova (beta).
+Grazie per aver scelto GiSquare Circuiti (versione 1.1.0).
+Il programma è gratuito per studio, didattica e uso personale.
 
 
 ------------------------------------------------

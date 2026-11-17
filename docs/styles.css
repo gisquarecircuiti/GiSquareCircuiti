@@ -27,3 +27,72 @@ html{overflow-x:hidden}body{overflow-x:hidden}@supports(overflow:clip){html,body
 .doc-card{grid-template-rows:25px 1fr auto auto}.doc-number,.doc-mark{grid-row:1 / span 4}.doc-title{grid-row:2;align-self:end;padding-bottom:8px;line-height:1.1}.doc-description{grid-row:3;align-self:start}.doc-action{grid-row:4}
 .is-mobile .platform-card{display:none}
 @media(max-width:1000px){.learning-quote small{display:none}}
+
+.about{padding-top:96px;padding-bottom:88px;display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:start}
+.about h2{margin:16px 0 0;font-family:var(--serif);font-weight:400;font-size:54px;line-height:1.02;letter-spacing:-.03em}
+.about h2 em{font-style:italic}
+.about .eyebrow{color:#2c6aa8}
+.about-text p{margin:0 0 16px;font-size:15px;line-height:1.7;color:var(--ink)}
+.about-text a{color:#2c6aa8;text-decoration:underline;text-underline-offset:3px}
+.about-list{margin:0 0 18px;padding:0;list-style:none;border-top:1px solid var(--line)}
+.about-list li{padding:11px 0 11px 22px;border-bottom:1px solid var(--line);position:relative;font-size:14.5px;line-height:1.55}
+.about-list li:before{content:"";position:absolute;left:2px;top:19px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.about-text .about-sign{margin-top:22px;font-family:var(--serif);font-size:24px}
+@media(max-width:900px){.about{grid-template-columns:1fr;gap:28px;padding-top:72px;padding-bottom:64px}.about h2{font-size:44px}}
+
+/* ===== versione 1.1: novità, strumenti e macchine, per i docenti, come è fatto ===== */
+.news{padding-top:104px;padding-bottom:40px}
+.news-head{display:flex;align-items:end;justify-content:space-between;gap:60px}
+.news-head h2{margin:17px 0 0;font-family:var(--serif);font-size:62px;font-weight:400;line-height:.96;letter-spacing:-.055em}
+.news-head h2 em{color:#477fae;font-weight:400}
+.news-head>p{max-width:380px;margin:0 0 8px;color:#77869c;font-size:14px;line-height:1.8}
+.news-grid{margin-top:38px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line)}
+.news-item{display:grid;grid-template-columns:44px 1fr;grid-template-rows:auto 1fr;column-gap:6px;padding:22px 24px 24px 0;border-bottom:1px solid var(--line);transition:background .2s}
+.news-item:not(:nth-child(3n+1)){padding-left:24px;border-left:1px solid var(--line)}
+.news-item:hover{background:#edf4fb}
+.news-no{grid-row:1/3;color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.14em;padding-top:5px}
+.news-item b{font-family:var(--serif);font-size:23px;font-weight:400;line-height:1.15;color:var(--ink)}
+.news-item>span:last-child{margin-top:8px;color:var(--muted);font-size:12.5px;line-height:1.7}
+.news-foot{margin:18px 0 0;font-size:12.5px}
+.news-foot a{color:#2f6fa3;font-weight:650}
+.news-foot a:hover{color:var(--ink)}
+
+.bench{padding-top:20px;padding-bottom:116px}
+.bench-grid{margin-top:38px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.bench-card{background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:0 18px 40px rgba(16,27,48,.07);display:flex;flex-direction:column}
+.bench-card figure{margin:0;aspect-ratio:2/1;overflow:hidden;background:#eef3f9;border-bottom:1px solid var(--line)}
+.bench-card img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 40%}
+.bench-copy{padding:22px 24px 26px}
+.bench-kicker{color:#2f6fa3;font-size:11px;font-weight:700;letter-spacing:.14em}
+.bench-kicker-green{color:#14806f}
+.bench-copy h3{margin:8px 0 14px;font-family:var(--serif);font-size:27px;font-weight:400;line-height:1.12;letter-spacing:-.02em}
+.chip-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:7px}
+.chip-list li{background:#e9f2fb;color:#1f4c78;border-radius:999px;padding:5px 11px;font-size:12px;font-weight:600;line-height:1.3}
+.chip-green li{background:#e3f5f1;color:#0f5f53}
+
+.teach{padding-top:112px;padding-bottom:30px}
+.teach-steps{list-style:none;margin:38px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.teach-step figure{position:relative;margin:0;aspect-ratio:4/3;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 12px 28px rgba(16,27,48,.08)}
+.teach-step img{display:block;width:100%;height:100%;object-fit:cover;object-position:left top}
+.step-no{position:absolute;left:10px;top:10px;width:30px;height:30px;border-radius:50%;background:var(--forest);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:16px}
+.step-no-accent{background:var(--accent);color:#172941}
+.teach-step h3{margin:16px 0 6px;font-family:var(--serif);font-size:22px;font-weight:400;line-height:1.15}
+.teach-step p{margin:0;color:var(--muted);font-size:12.5px;line-height:1.7}
+.teach-foot{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#77869c;font-size:12.5px}
+.teach-foot a{color:#2f6fa3;font-weight:650}
+
+.doc-list-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+.doc-list-4 .doc-card:nth-child(odd){padding-left:0;border-left:0}
+.doc-list-4 .doc-card:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
+.download-inner{align-items:start}
+.bench-card img{object-position:center 30%}
+.doc-list-4 .doc-card:nth-child(n+3){border-top:1px solid var(--line)}
+.legal-links{display:flex;flex-wrap:wrap;gap:6px 22px;justify-content:flex-end}
+
+.howmade{margin-top:48px;padding:22px 26px;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:4px;background:#fff;display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:baseline}
+.howmade-label{color:#718099;font-size:11px;font-weight:700;letter-spacing:.14em}
+.howmade p{margin:0;color:var(--ink);font-size:13.5px;line-height:1.75}
+
+@media(max-width:1000px){.teach-steps{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:34px}.news-head{display:block}.news-head>p{margin-top:18px}}
+@media(max-width:900px){.news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.news-item:not(:nth-child(3n+1)){padding-left:0;border-left:0}.news-item:nth-child(2n){padding-left:20px;border-left:1px solid var(--line)}.bench-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.news{padding-top:72px}.news-head h2{font-size:49px}.news-head>p{font-size:12px}.news-grid{grid-template-columns:1fr}.news-item:nth-child(2n){padding-left:0;border-left:0}.news-item b{font-size:21px}.bench{padding-bottom:76px}.bench-copy h3{font-size:23px}.teach{padding-top:72px}.teach-steps{grid-template-columns:1fr}.doc-list-4{grid-template-columns:1fr}.doc-list-4 .doc-card:nth-child(even){padding-left:0;border-left:0}.doc-list-4 .doc-card+.doc-card{border-top:1px solid var(--line)}.howmade{grid-template-columns:1fr;gap:8px;padding:18px}.legal-links{justify-content:flex-start}.docs-footer{flex-direction:column;gap:10px}}

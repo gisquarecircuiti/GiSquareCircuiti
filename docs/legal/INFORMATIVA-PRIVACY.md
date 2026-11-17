@@ -1,5 +1,5 @@
 # Informativa sulla privacy
-**GiSquare Circuiti – versione beta** · aggiornata all'11 novembre 2026
+**GiSquare Circuiti – versione 1.1.0** · aggiornata al 16 novembre 2026
 (informativa ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679, “GDPR”)
 
 ## In breve
@@ -38,13 +38,13 @@ Questo controllo si può **disattivare** dalla finestra “Informazioni” (case
 
 In questi casi il tuo computer si collega ai server di Arduino, che ricevono i dati tecnici di ogni collegamento a Internet (per esempio l'indirizzo IP). Il titolare di quel trattamento è Arduino, secondo la propria informativa sulla privacy (arduino.cc). L'autore di GiSquare Circuiti non riceve questi dati.
 
-Il motore di simulazione ngspice (incluso nel programma) e il compilatore lavorano sul tuo computer e non inviano dati.
+Il motore di simulazione ngspice (incluso nel programma) e il compilatore lavorano sul tuo computer e non inviano dati. La finestra del programma non carica pagine, caratteri o immagini da Internet.
 
 ## 4. Dati che invii all'autore
 Se scrivi all'autore (segnalazioni di errori, suggerimenti, richieste), vengono trattati i dati che comunichi: indirizzo email, nome, contenuto del messaggio ed eventuali allegati (per esempio un file di circuito o una schermata).
-- **Finalità**: rispondere, risolvere i problemi segnalati e migliorare il programma durante la fase di prova.
-- **Base giuridica**: l'esecuzione dell'accordo di prova (licenza beta) e la tua richiesta (art. 6, par. 1, lettera b, GDPR); per il miglioramento del programma, il legittimo interesse dell'autore (lettera f).
-- **Conservazione**: per la durata della fase beta e fino a 12 mesi dopo la sua conclusione, poi i messaggi vengono cancellati, salvo obblighi di legge.
+- **Finalità**: rispondere, risolvere i problemi segnalati e migliorare il programma.
+- **Base giuridica**: la tua richiesta e la licenza d'uso del programma (art. 6, par. 1, lettera b, GDPR); per il miglioramento del programma, il legittimo interesse dell'autore (lettera f).
+- **Conservazione**: per il tempo necessario a gestire la richiesta e comunque non oltre 24 mesi dall'ultimo scambio di messaggi, poi i messaggi vengono cancellati, salvo obblighi di legge.
 - **Destinatari**: i dati non vengono venduti né ceduti. Sono gestiti con il servizio di posta elettronica dell'autore (Google Gmail), che agisce secondo le proprie condizioni e può trattare dati anche fuori dall'Unione europea con le garanzie previste dal GDPR.
 - **Natura del conferimento**: facoltativa; senza i dati non è possibile rispondere.
 
