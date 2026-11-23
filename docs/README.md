@@ -24,6 +24,7 @@ Apri `index.html` in un browser. Per i link interni, i tab dei laboratori e la n
 - `script.js` — tab dei tre ambienti e menu mobile
 - `assets/` — marchio, icona e schermate del software
 - `documenti/` — guide e volantino in PDF, istruzioni per Mac
-- `legal/` — licenza d’uso, note di versione e informative (`EULA-BETA.html` rimanda alla nuova licenza)
+- `legal/` — licenza d’uso, note di versione e informative (`EULA-BETA.html` rimanda alla nuova licenza; `LICENZA-D-USO-WEB.html` è il contratto 3.1 della versione web)
+- `app/` — **versione web** del programma (si apre da `app/`): file già pronti e offuscati, generati dallo script di build della versione web; non modificarli a mano. Il motore `app/engine/eecircuit-engine.mjs` (16 MB) resta un file separato, non offuscato, come richiede la licenza LGPL di ngspice. `app/manifest.webmanifest`, `app/sw.js` e `app/icons/` rendono la versione web installabile come app («GiSquare Circuiti Web») e utilizzabile senza Internet: `sw.js` contiene l’elenco dei file e un numero di build, va sempre rigenerato insieme ai file dell’app.
 
 

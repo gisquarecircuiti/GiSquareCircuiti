@@ -18,3 +18,6 @@
 .legal-content code{padding:2px 4px;background:#edf4fb;color:#355c80;font-size:.9em;overflow-wrap:anywhere}
 .back-bottom{display:inline-block;margin-top:24px}
 @media(max-width:600px){.legal-topbar{height:65px;padding-inline:20px}.legal-wrap{width:calc(100% - 32px);margin:38px auto 62px}.legal-content{padding:23px 19px}.legal-content p,.legal-content li{font-size:12px}.back-link{font-size:10px}}
+
+.legal-note{margin:0 0 18px;padding:12px 16px;border-left:3px solid var(--accent);background:rgba(91,124,250,.07);font-size:14px;line-height:1.6}
+.legal-note a{color:inherit;text-decoration:underline;font-weight:600}
