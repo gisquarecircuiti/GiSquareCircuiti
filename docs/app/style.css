@@ -452,8 +452,6 @@ body.wired .elec-only { display:none !important; }
 .rel-a { min-height:12mm; border:1px solid #d9dee7; border-radius:4px; padding:4px 8px; margin-top:3px; white-space:pre-wrap; } .rel-n { min-height:25mm; }
 .rel-foot { margin-top:12px; color:#94a3b8; font-size:8pt; border-top:1px solid #d9dee7; padding-top:5px; }
 
-#vbanner { position:absolute; bottom:34px; left:50%; transform:translateX(-50%); z-index:30; display:flex; align-items:center; gap:10px; padding:7px 12px; background:#fef3c7; color:#78350f; border:1px solid #fcd34d; border-radius:9px; font-size:13px; box-shadow:0 2px 8px rgba(0,0,0,.18); max-width:92%; }
-#vbanner button { border:1px solid #b45309; background:transparent; color:#78350f; border-radius:6px; padding:3px 10px; font-weight:600; cursor:pointer; white-space:nowrap; }
 
 /* seconda riga con ambiente, esempi, schede, verifica ed esportazione del progetto */
 #subbar { display:flex; align-items:center; gap:10px; padding:5px 10px 6px; background:var(--panel); border-bottom:1px solid var(--line); overflow-x:auto; overflow-y:hidden; }
@@ -589,7 +587,7 @@ body.nobottom #tabs button[data-tab].active { border-color:transparent; }
 .pop-menu { position:fixed; z-index:200; min-width:290px; background:var(--panel); border:1px solid var(--line); border-radius:10px; box-shadow:0 8px 24px rgba(0,0,0,.25); padding:5px; display:flex; flex-direction:column; }
 .pop-menu button { display:flex; flex-direction:column; align-items:flex-start; gap:1px; text-align:left; background:transparent; border:none; border-radius:7px; padding:8px 11px; color:var(--text); cursor:pointer; }
 .pop-menu button:hover { background:var(--accent-soft); } .pop-menu button span { color:var(--muted); font-size:11.5px; }
-#vbanner #v-corr { border-color:#92400e; }
+
 .cg-h { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:6px; }
 .cg-v { text-align:right; } .cg-v span { display:block; color:var(--muted); font-size:12px; } .cg-v b { font-size:24px; color:var(--accent); }
 .cg-s { font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:16px 0 6px; padding-bottom:4px; border-bottom:1px solid var(--line); }
@@ -891,6 +889,41 @@ table.ms-cd { border-collapse:collapse; } .ms-cd th { text-align:left; font-size
 .sc-seg button.on { background:var(--accent); color:#fff; font-weight:700; }
 .scope-ctl .sc-top { gap:8px; margin-bottom:6px; }
 .scope-ctl { width:270px; }
+
+/* lente del grafico */
+.ptools button { display:inline-flex; align-items:center; gap:4px; white-space:nowrap; }
+.ptools button svg { flex:none; }
+/* legenda e pulsanti in una barra sopra il grafico: non coprono più le tracce */
+.plotbox { display:flex; flex-direction:column; container-type:inline-size; }
+.plotbox > canvas { flex:1; min-height:0; height:auto; }
+.pbar { display:flex; align-items:flex-start; gap:10px; padding:5px 14px 3px 70px; flex:none; }
+.pbar .plegend { position:static; flex:1; min-width:0; max-width:none; pointer-events:auto; }
+.pbar .ptools { position:static; flex:none; }
+@container (max-width: 700px) { .pbar .ptools .lb { display:none; } .pbar { padding-left:10px; } }
+
+/* nodo evidenziato nello schema e nei risultati */
+#canvas .nodehl path { fill:none; stroke:#ff9f1a; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; opacity:.55; }
+#canvas .nodehl circle { fill:#ff9f1a; opacity:.75; }
+#results .nodehot td, #results .sigrow.nodehot, #results .plegend span.nodehot { background:color-mix(in srgb, #ff9f1a 22%, transparent); }
+#results .plegend span { cursor:default; }
+
+/* diagramma di Bode: barra con informazioni e pulsanti, riquadro dei cursori */
+.bodebox { position:relative; container-type:inline-size; }
+.acbar { padding:2px 14px 2px 0; align-items:center; border-bottom:1px solid var(--line); }
+.acbar .acinfo { flex:1; min-width:0; border-bottom:0; }
+@container (max-width: 700px) { .acbar .ptools .lb { display:none; } }
+/* avviso di recupero del lavoro non salvato */
+#recbar { position:fixed; top:64px; left:50%; transform:translateX(-50%); z-index:60; display:flex; align-items:center; gap:10px; max-width:calc(100vw - 32px); background:var(--panel); color:var(--text); border:1px solid var(--accent); border-radius:10px; box-shadow:0 8px 28px rgba(0,0,0,.22); padding:8px 12px; font-size:13px; }
+#recbar b { font-weight:700; } #recbar button { white-space:nowrap; } #recbar button.pri { background:var(--accent); color:#fff; border-color:var(--accent); }
+
+/* modalità verifica: etichetta con il lucchetto nella barra delle schede e riquadro con spiegazione e pulsanti */
+#tabs #vbadge { display:flex; align-items:center; gap:5px; flex:none; margin:0 4px 4px 8px; padding:3px 10px; border:1px solid #f0b429; border-radius:999px; background:#fef3c7; color:#78350f; font-weight:700; font-size:12px; cursor:pointer; }
+#tabs #vbadge:hover, #tabs #vbadge.open { background:#fde68a; }
+#vpop { position:fixed; z-index:70; width:min(420px, calc(100vw - 16px)); padding:10px 12px; background:#fef3c7; color:#78350f; border:1px solid #fcd34d; border-radius:10px; box-shadow:0 8px 26px rgba(0,0,0,.25); font-size:13px; line-height:1.4; }
+#vpop[hidden] { display:none; }
+#vpop .vp-btns { display:flex; gap:8px; justify-content:flex-end; margin-top:9px; flex-wrap:wrap; }
+#vpop button { border:1px solid #b45309; background:transparent; color:#78350f; border-radius:6px; padding:3px 10px; font-weight:600; cursor:pointer; white-space:nowrap; }
+#vpop button:hover { background:#fde68a; }
 
 /* versione web */
 #mcu-compile,#mcu-libs,.ab-upd{display:none!important}
