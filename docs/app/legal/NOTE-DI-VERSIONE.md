@@ -1,3 +1,33 @@
+# Note di versione – GiSquare Circuiti 1.2.0
+Le novità nate dalla versione web e dalle prove in classe. Le stesse funzioni ci sono anche nella versione web.
+
+## Novità rispetto alla 1.1.0
+
+### Nuovi componenti per le schede a microcontrollore
+- **Sensore di fiamma** (uscite analogica e digitale con soglia), **sensore magnetico a effetto Hall**, **modulo relè** (attivo alto o basso, contatti NA/COM/NC), **motore passo-passo con driver** (passo intero, mezzo passo, una fase), **matrice di LED 8×8 con driver seriale**, **striscia di LED RGB indirizzabili**.
+- **Sei esempi nuovi** con gli sketch già compilati e **sei schede di laboratorio** con traccia, domande e soluzione (57 schede in tutto).
+
+### Misure e grafici
+- **Wattmetro digitale**: il valore scelto (P, S, Q, cos φ, V o I) compare sul display del simbolo; funziona anche in corrente continua.
+- **Lente sui grafici**: si trascina un rettangolo sulla parte di segnale da ingrandire; pulsanti ＋, －, «Vista completa» (anche con il doppio clic) e trascinamento del grafico ingrandito. Legenda e pulsanti stanno in una barra sopra il grafico e non coprono più le tracce.
+- **Diagramma di Bode**: lente sulle frequenze e **cursori A e B** con guadagno, fase e rapporto fra le frequenze.
+- **Immagine del grafico completa** (nel diagramma di Bode modulo e fase con la scala delle frequenze, informazioni e legenda) e nuovo pulsante **«Copia grafico»** per incollarlo nella relazione.
+- **Nomi dei nodi comprensibili**: nei risultati, al posto di n1, n2… compaiono i componenti collegati (per esempio «R1-C1»); passando con il mouse su un nodo si illumina nello schema, e passando su un filo se ne leggono nome e tensione.
+
+### Lavoro più sicuro
+- **Avviso alla chiusura** con un circuito non salvato: «Salva e chiudi», «Chiudi senza salvare» o «Annulla».
+- **Recupero automatico**: ogni 30 secondi una copia di sicurezza del circuito non salvato; se il programma si chiude per sbaglio, alla riapertura si può recuperare.
+- «Apri», «Nuovo» e gli esempi chiedono conferma solo se ci sono modifiche non salvate.
+
+### Interfaccia
+- **«Ruota» anche sugli strumenti**: multimetro, oscilloscopio e wattmetro ruotano i morsetti e restano dritti e leggibili.
+- **Cursore a matita** quando si disegnano i fili.
+- **Modalità verifica**: l'avviso giallo diventa un'etichetta «Verifica» nella barra in basso, che non copre più lo schema; un clic mostra spiegazione e pulsanti.
+- Con la finestra stretta, un messaggio lungo nella barra in basso non allarga più l'interfaccia.
+
+### Licenza
+- **Contratto di licenza 3.1**, valido per il programma per computer e per la versione web (licenza d'uso gratuita); al primo avvio della 1.2.0 viene chiesto di accettarlo. Informativa sulla privacy aggiornata (preferenze e copia di sicurezza salvate solo sul computer).
+
 # Note di versione – GiSquare Circuiti 1.1.0
 Prima versione stabile del programma. Grazie a tutti i docenti e gli studenti che hanno provato le versioni beta e segnalato errori e idee.
 

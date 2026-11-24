@@ -17,6 +17,8 @@ Andrea Aldini – email: gisquare.circuiti@gmail.com
 Il programma salva sul tuo computer, nella cartella dei dati dell'applicazione (su Windows di solito `%APPDATA%\GiSquare Circuiti`; su macOS in `~/Library/Application Support/GiSquare Circuiti`; su Linux e Chrome OS in `~/.config/GiSquare Circuiti`):
 - le impostazioni (per esempio il percorso di ngspice e di arduino-cli e l'accettazione della licenza);
 - i modelli di componenti che importi;
+- le preferenze dell'interfaccia: tema chiaro o scuro, formato del foglio, disposizione dei pannelli, componenti usati di recente e il nome e la classe scritti nell'ultima relazione di laboratorio, che vengono riproposti la volta successiva (sui computer usati da più persone con lo stesso account conviene cancellarli a fine lezione);
+- una **copia di sicurezza del circuito modificato e non ancora salvato**, aggiornata ogni 30 secondi e cancellata quando lo salvi, per poterlo recuperare se il programma si chiude per sbaglio;
 - il compilatore arduino-cli, se scegli di scaricarlo dal programma.
 
 Le librerie Arduino che installi dalla finestra “Librerie…” vanno nella cartella delle librerie dell'utente (su Windows di solito `Documenti\Arduino\libraries`), la stessa usata dall'IDE Arduino.
