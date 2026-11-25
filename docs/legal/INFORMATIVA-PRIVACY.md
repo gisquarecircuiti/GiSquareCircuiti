@@ -1,5 +1,5 @@
 # Informativa sulla privacy
-**GiSquare Circuiti – programma per computer e versione web** · aggiornata al 24 novembre 2026
+**GiSquare Circuiti – programma per computer e versione web** · aggiornata al 25 novembre 2026
 (informativa ai sensi degli articoli 13 e 14 del Regolamento (UE) 2016/679, “GDPR”)
 
 ## In breve
@@ -33,6 +33,7 @@ La versione web si apre dal sito ufficiale (https://gisquarecircuiti.github.io/G
 - **Niente cookie, niente statistiche.** La versione web non usa cookie, strumenti di analisi del traffico, pubblicità o caratteri e immagini caricati da altri siti.
 - **File.** I circuiti, i file .hex e le immagini si aprono e si salvano con le finestre del browser, nella cartella che scegli tu (o in Download).
 - **Collegamenti.** Le guide in PDF si aprono dal sito ufficiale; il pulsante per scrivere all'autore apre il tuo programma di posta. La versione web **non compila** gli sketch e non si collega ai server di Arduino.
+- **Installazione dal Google Workspace Marketplace.** La versione web si può installare anche dal Google Workspace Marketplace, con il nome **GiSquare Circuiti Web**. Durante l'installazione Google mostra una schermata di consenso con i soli permessi di base per l'accesso (indirizzo email e informazioni del profilo, *userinfo.email* e *userinfo.profile*), richiesti per le app del Marketplace. L'app non legge questi dati, non accede a Gmail, Drive o ad altri dati dell'account Google e non li conserva né li trasmette all'autore o a terzi. L'eventuale uso di informazioni ricevute dalle API di Google rispetta le [Norme relative ai dati utente dei servizi API di Google](https://developers.google.com/terms/api-services-user-data-policy), compresi i requisiti di Uso limitato. L'installazione e il consenso sono gestiti da Google secondo la propria informativa.
 
 Con il programma per computer, invece, i dati restano nella cartella descritta al punto 2.
 
