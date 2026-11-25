@@ -129,3 +129,9 @@ html{overflow-x:hidden}body{overflow-x:hidden}@supports(overflow:clip){html,body
 /* menu: con le voci "Versione web" e "GiSquare OS" il menu completo serve almeno 1320 px; sotto si usa il pulsante ☰ */
 @media(max-width:1320px) and (min-width:701px){.menu-toggle{width:40px;height:40px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;border:1px solid rgba(255,255,255,.25);background:transparent;color:white}.menu-toggle span{width:16px;height:1px;background:white}.site-nav{position:absolute;top:100%;left:0;right:0;padding:10px 28px 22px;display:none;align-items:stretch;flex-direction:column;gap:0;background:#101b30;border-bottom:1px solid rgba(255,255,255,.1)}.site-nav.is-open{display:flex}.site-nav>a:not(.nav-download){padding:14px 0;border-bottom:1px solid rgba(255,255,255,.09)}.nav-download{margin-top:14px;text-align:center}}
 .doc-list-4 .doc-card:nth-child(5){grid-column:1/-1;padding-left:0;border-left:0}
+
+.video-feature.family-next{margin-top:0;border-top:0}
+.anchor-alias{display:block;position:relative;top:-90px;visibility:hidden}
+.footer-links a{white-space:nowrap}
+.footer-links{flex-wrap:wrap;justify-content:flex-end;row-gap:10px}
+@media (max-width:760px){.footer-main{grid-template-columns:1fr;gap:14px;padding:22px 0}.footer-links{justify-self:start;justify-content:flex-start}}
