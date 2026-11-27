@@ -34,8 +34,10 @@ main { display:grid; grid-template-columns:var(--palette-w, 204px) 1fr var(--pro
 #props-hide, #props-reopen { cursor:pointer; border:1px solid var(--line); background:var(--panel); color:var(--muted); border-radius:6px; line-height:1; padding:0; }
 #props-hide { width:20px; height:20px; font-size:14px; }
 #props-hide:hover, #props-reopen:hover { color:var(--accent); border-color:var(--accent); }
-#props-reopen { display:none; position:absolute; top:8px; right:8px; z-index:6; width:24px; height:28px; font-size:16px; box-shadow:0 1px 4px rgba(0,0,0,.18); }
-:root.props-collapsed #props-reopen { display:flex; align-items:center; justify-content:center; }
+#props-reopen { display:none; position:absolute; top:8px; right:0; z-index:6; width:28px; padding:10px 0 12px; border-right:0; border-radius:8px 0 0 8px; box-shadow:0 1px 4px rgba(0,0,0,.18); }
+:root.props-collapsed #props-reopen { display:flex; flex-direction:column; align-items:center; gap:8px; }
+#props-reopen .pr-arrow { font-size:16px; line-height:1; }
+#props-reopen .pr-lbl { writing-mode:vertical-rl; transform:rotate(180deg); font-size:12px; font-weight:600; letter-spacing:.06em; }
 #palette-resize { position:absolute; left:-3px; top:0; bottom:0; width:7px; cursor:col-resize; z-index:6; }
 #palette-resize::after { content:""; position:absolute; left:3px; top:0; bottom:0; width:1px; background:transparent; transition:background-color .12s; }
 #palette-resize:hover::after, #palette-resize.drag::after { background:var(--accent); width:2px; left:2px; }

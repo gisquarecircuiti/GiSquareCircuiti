@@ -8,6 +8,9 @@
 - Una verifica si può salvare anche se nel circuito non ci sono componenti a cui applicare un guasto: in quel caso si fa con le domande e la tabella delle misure.
 - Attenzione: una verifica con i guasti nuovi va aperta con la versione 1.2.1 o successiva (anche la versione web è già aggiornata).
 
+### Interfaccia
+- Con il pannello Proprietà chiuso, sul bordo destro resta una linguetta «Proprietà» ben visibile: un clic lo riapre.
+
 ### Guide
 - Guida per i docenti e manuale aggiornati alla 1.2.1.
 
