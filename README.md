@@ -6,11 +6,11 @@ Autore: Andrea Aldini · Contatti: gisquare.circuiti@gmail.com · Sito ufficiale
 
 ## Cosa contiene
 - **Elettronica**: punto di lavoro, transitorio e risposta in frequenza (diagramma di Bode); grafici con lente, cursori e nomi dei nodi comprensibili; transistor, operazionali, diodi con modelli pronti, porte logiche, flip-flop, timer 555, display e molto altro.
-- **Strumenti reali**: multimetri digitali e analogici con portate ed effetto di carico, wattmetri digitali e analogici, oscilloscopio con sonde ×1/×10, trigger e modo XY, generatore di funzioni da 50 Ω, alimentatore da banco con limite di corrente.
+- **Strumenti reali**: multimetri digitali e analogici con portate ed effetto di carico, wattmetri digitali e analogici, oscilloscopio con sonde ×1/×10, trigger e modo XY, pinza amperometrica e sonda di corrente agganciabili ai fili, generatore di funzioni da 50 Ω, alimentatore da banco con limite di corrente.
 - **Macchine elettriche**: trasformatore reale dai dati di targa, variac, motore asincrono trifase, motore in continua, dinamo e alternatore, con le prove di laboratorio.
 - **Logica cablata e PLC**: schemi di comando e potenza con guasti simulati e **PLC con editor Ladder** (24 V a transistor e 230 V a relè, temporizzatori, contatori, ingressi analogici e sensori).
 - **Microcontrollori**: schede compatibili con Arduino Uno e Nano che eseguono un vero sketch, con monitor seriale, display, servomotori, sensori, relè, motori passo-passo, matrici e strisce di LED.
-- **Per la classe**: 57 schede di laboratorio, 80 esempi, tabella delle misure con grafico, relazione in PDF, verifiche con guasti nascosti, correzione e riepilogo di classe.
+- **Per la classe**: 59 schede di laboratorio, 83 esempi, tabella delle misure con grafico, relazione in PDF, verifiche con guasti nascosti, correzione e riepilogo di classe.
 - **Guide in PDF** incluse nel programma (pulsante *Guide* o tasto F1): manuale d'uso, guida rapida e guida per i docenti.
 
 ## Scarica

@@ -1,18 +1,24 @@
-# Note di versione – GiSquare Circuiti 1.2.1
+# Note di versione – GiSquare Circuiti 1.3.0
 
 ## Novità rispetto alla 1.2.0
+
+### Pinza amperometrica e sonda di corrente
+- **Pinza amperometrica** (gruppo Strumenti): si aggancia con un clic a un filo già disegnato e ne misura la corrente **senza interrompere il circuito**, con valore efficace vero, medio (DC) o efficace della sola parte alternata. Si sposta trascinandola su un altro filo; il verso si può invertire come girando la pinza.
+- **Sonda di corrente per l'oscilloscopio**: si aggancia a un filo e la sua uscita si collega al canale A o B. Sensibilità 1 V/A, 100 mV/A o 10 mV/A. L'oscilloscopio riconosce la sonda e mostra direttamente gli ampere (scala in A/div, Ipp, Ieff, Imedio, cursori e trigger in ampere).
+- Tre esempi nuovi (pinza su un circuito RL, tensione e corrente in un circuito RL, corrente di spunto di una lampada) e due schede di laboratorio nuove (59 schede in tutto).
+- Nella modalità verifica lo studente può usare pinza e sonda anche sul circuito bloccato.
 
 ### Verifiche: guasti su più componenti
 - Nell'ambiente Elettronica i guasti della modalità verifica si possono applicare anche a **interruttori e pulsanti** (non chiude mai, incollato), **diodi, LED e Zener** (interrotto, in cortocircuito), **lampade** (filamento interrotto), **fusibili** (già fuso), **relè** (bobina interrotta, contatto che non commuta, contatto incollato) e **batterie** (scarica, interrotta). Prima erano possibili solo su resistenze, condensatori e induttori.
 - Il contatto del relè guasto è disegnato nella posizione reale (a riposo o in lavoro), non in quella che farebbe pensare la tensione sulla bobina.
 - Una verifica si può salvare anche se nel circuito non ci sono componenti a cui applicare un guasto: in quel caso si fa con le domande e la tabella delle misure.
-- Attenzione: una verifica con i guasti nuovi va aperta con la versione 1.2.1 o successiva (anche la versione web è già aggiornata).
+- Attenzione: una verifica con i guasti nuovi va aperta con la versione 1.3.0 o successiva (anche la versione web è già aggiornata).
 
 ### Interfaccia
 - Con il pannello Proprietà chiuso, sul bordo destro resta una linguetta «Proprietà» ben visibile: un clic lo riapre.
 
 ### Guide
-- Guida per i docenti e manuale aggiornati alla 1.2.1.
+- Manuale (capitoli sulla pinza amperometrica e sulla sonda di corrente) e guida per i docenti aggiornati alla 1.3.0.
 
 # GiSquare Circuiti 1.2.0
 Le novità nate dalla versione web e dalle prove in classe. Le stesse funzioni ci sono anche nella versione web.
