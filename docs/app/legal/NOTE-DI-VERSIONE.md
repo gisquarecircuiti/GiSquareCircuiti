@@ -5,7 +5,8 @@
 ### Pinza amperometrica e sonda di corrente
 - **Pinza amperometrica** (gruppo Strumenti): si aggancia con un clic a un filo già disegnato e ne misura la corrente **senza interrompere il circuito**, con valore efficace vero, medio (DC) o efficace della sola parte alternata. Si sposta trascinandola su un altro filo; il verso si può invertire come girando la pinza.
 - **Sonda di corrente per l'oscilloscopio**: si aggancia a un filo e la sua uscita si collega al canale A o B. Sensibilità 1 V/A, 100 mV/A o 10 mV/A. L'oscilloscopio riconosce la sonda e mostra direttamente gli ampere (scala in A/div, Ipp, Ieff, Imedio, cursori e trigger in ampere).
-- Tre esempi nuovi (pinza su un circuito RL, tensione e corrente in un circuito RL, corrente di spunto di una lampada) e due schede di laboratorio nuove (59 schede in tutto).
+- **Pinza anche in Logica cablata**: agganciata a un filo mostra la corrente efficace e il valore massimo dall'avvio (MAX), per leggere la corrente di spunto dei motori.
+- Quattro esempi nuovi (pinza su un circuito RL, tensione e corrente in un circuito RL, corrente di spunto di una lampada, corrente di avviamento del motore in logica cablata) e due schede di laboratorio nuove (59 schede in tutto).
 - Nella modalità verifica lo studente può usare pinza e sonda anche sul circuito bloccato.
 
 ### Verifiche: guasti su più componenti
