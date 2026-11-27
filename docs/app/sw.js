@@ -1,6 +1,6 @@
 // GiSquare Circuiti Web — copia dell'app nel browser per l'uso senza Internet e per gli aggiornamenti.
 // I file del programma restano sul dispositivo; nessun dato viene inviato all'autore.
-const BUILD = 'bbe200c1a260';
+const BUILD = '2931e3d2c4f9';
 const CACHE = 'gisquare-web-' + BUILD;
 const FILES = ["./","app.js","build/icon.png","build/icon.svg","core.js","devices.js","doc-pdf.js","engine/LICENSE-eecircuit-engine.txt","engine/eecircuit-engine.mjs","fonts/OFL-OpenSans.txt","fonts/open-sans-400.woff2","fonts/open-sans-600.woff2","fonts/open-sans-700.woff2","icons/icon-web-192.png","icons/icon-web-512.png","icons/icon-web-maskable-512.png","icons/icon-web.svg","index.html","lcd.js","legal-ui.js","legal/INFORMATIVA-PRIVACY.md","legal/LICENZA-D-USO.md","legal/LICENZA-GPL-2.0.txt","legal/LICENZA-GPL-3.0.txt","legal/LICENZA-LGPL-2.1.txt","legal/LICENZA-NGSPICE.txt","legal/LICENZA-OPEN-SANS.txt","legal/LICENZE-DI-TERZE.md","legal/NOTE-DI-VERSIONE.md","manifest.webmanifest","mcu-examples.js","mcu-ui.js","mcu.js","misure-ui.js","panels-ui.js","plc-ui.js","ribbon-ui.js","scheda-ui.js","schede.js","sim-worker.js","style.css","updater-ui.js","vendor/avr8js.js","verifica-ui.js","web-api.js","web-dirty.js","wired-ui.js","wired.js"];
 self.addEventListener('install', e => {

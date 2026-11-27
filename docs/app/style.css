@@ -936,6 +936,8 @@ body.tool-wire #canvas, body.tool-wire #canvas *{cursor:url("data:image/svg+xml,
 /* pinza amperometrica e sonda di corrente: ganascia sul filo */
 .sym circle.jaw { fill:none; stroke-width:3.2; }
 .sym circle.jaw-free { stroke:var(--bad); stroke-dasharray:4 3; }
+.sym circle.jaw-grab { fill:transparent; stroke:none; cursor:grab; pointer-events:all; }
+.sym path.cable { fill:none; stroke-width:1.6; stroke-dasharray:none; opacity:.85; }
 
 /* versione web */
 #mcu-compile,#mcu-libs,.ab-upd{display:none!important}
