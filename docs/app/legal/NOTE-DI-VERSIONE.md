@@ -17,6 +17,7 @@
 
 ### Interfaccia
 - Con il pannello Proprietà chiuso, sul bordo destro resta una linguetta «Proprietà» ben visibile: un clic lo riapre.
+- Chiudendo o riaprendo il pannello Proprietà la griglia di puntini copre sempre tutto il foglio (prima nella parte liberata i puntini sparivano finché non si spostava la vista).
 
 ### Guide
 - Manuale (capitoli sulla pinza amperometrica e sulla sonda di corrente) e guida per i docenti aggiornati alla 1.3.0.
