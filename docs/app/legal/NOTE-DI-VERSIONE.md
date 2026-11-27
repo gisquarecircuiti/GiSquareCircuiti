@@ -1,4 +1,17 @@
-# Note di versione – GiSquare Circuiti 1.2.0
+# Note di versione – GiSquare Circuiti 1.2.1
+
+## Novità rispetto alla 1.2.0
+
+### Verifiche: guasti su più componenti
+- Nell'ambiente Elettronica i guasti della modalità verifica si possono applicare anche a **interruttori e pulsanti** (non chiude mai, incollato), **diodi, LED e Zener** (interrotto, in cortocircuito), **lampade** (filamento interrotto), **fusibili** (già fuso), **relè** (bobina interrotta, contatto che non commuta, contatto incollato) e **batterie** (scarica, interrotta). Prima erano possibili solo su resistenze, condensatori e induttori.
+- Il contatto del relè guasto è disegnato nella posizione reale (a riposo o in lavoro), non in quella che farebbe pensare la tensione sulla bobina.
+- Una verifica si può salvare anche se nel circuito non ci sono componenti a cui applicare un guasto: in quel caso si fa con le domande e la tabella delle misure.
+- Attenzione: una verifica con i guasti nuovi va aperta con la versione 1.2.1 o successiva (anche la versione web è già aggiornata).
+
+### Guide
+- Guida per i docenti e manuale aggiornati alla 1.2.1.
+
+# GiSquare Circuiti 1.2.0
 Le novità nate dalla versione web e dalle prove in classe. Le stesse funzioni ci sono anche nella versione web.
 
 ## Novità rispetto alla 1.1.0
